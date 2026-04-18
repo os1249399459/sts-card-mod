@@ -1,0 +1,5 @@
+libs/desktop-1.0.jar filter=lfs diff=lfs merge=lfs -text
+libs/BaseMod.jar filter=lfs diff=lfs merge=lfs -text
+libs/ModTheSpire.jar filter=lfs diff=lfs merge=lfs -text
+libs/StSLib.jar filter=lfs diff=lfs merge=lfs -text
+libs/*.jar filter=lfs diff=lfs merge=lfs -text
