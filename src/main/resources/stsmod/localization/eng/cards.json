@@ -1,0 +1,6 @@
+{
+  "stsmod:ExampleAttack": {
+    "NAME": "Example Attack",
+    "DESCRIPTION": "Deal !D! damage."
+  }
+}

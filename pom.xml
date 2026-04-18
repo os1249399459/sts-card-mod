@@ -1,0 +1,72 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>stsmod</groupId>
+  <artifactId>stsmod</artifactId>
+  <version>1.0.0</version>
+  <packaging>jar</packaging>
+
+  <name>stsmod</name>
+  <url>http://maven.apache.org</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <SlayTheSpire.version>12-18-2022</SlayTheSpire.version>
+    <ModTheSpire.version>3.30.0</ModTheSpire.version>
+    <Basemod.version>5.44.0</Basemod.version>
+    <StSLib.version>2.4.0</StSLib.version>
+  </properties>
+
+  <dependencies>
+        <!-- Game core library -->
+    <dependency>
+        <groupId>com.megacrit.cardcrawl</groupId>
+        <artifactId>slaythespire</artifactId>
+        <version>${SlayTheSpire.version}</version>
+        <scope>system</scope>
+        <systemPath>/home/hex636869/playground/sts-card-mod/libs/desktop-1.0.jar</systemPath>
+    </dependency>
+
+    <!-- ModTheSpire -->
+    <dependency>
+        <groupId>com.evacipated.cardcrawl</groupId>
+        <artifactId>modthespire</artifactId>
+        <version>${ModTheSpire.version}</version>
+        <scope>system</scope>
+        <systemPath>/home/hex636869/playground/sts-card-mod/libs/ModTheSpire.jar</systemPath>
+    </dependency>
+
+    <!-- BaseMod -->
+    <dependency>
+        <groupId>basemod</groupId>
+        <artifactId>basemod</artifactId>
+        <version>${Basemod.version}</version>
+        <scope>system</scope>
+        <systemPath>/home/hex636869/playground/sts-card-mod/libs/BaseMod.jar</systemPath>
+    </dependency>
+
+    <!-- StSLib -->
+    <dependency>
+        <groupId>com.evacipated.cardcrawl.mod</groupId>
+        <artifactId>StSLib</artifactId>
+        <version>${StSLib.version}</version>
+        <scope>system</scope>
+        <systemPath>/home/hex636869/playground/sts-card-mod/libs/StSLib.jar</systemPath>
+    </dependency>
+  </dependencies>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.8.1</version>
+        <configuration>
+          <source>1.8</source>
+          <target>1.8</target>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+</project>

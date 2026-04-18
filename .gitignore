@@ -1,0 +1,115 @@
+# Git ignore file for Slay the Spire mod project
+
+# Maven build files
+*.iml
+*.idea
+*.tmp
+*.log
+*.swp
+*.swn
+*.swo
+*.slo
+*.suo
+*.user
+*.DS_Store
+
+# Build output
+build/
+target/
+
+# IDE specific
+.idea/
+
+# Local configuration
+local.properties
+
+# Logs
+logs/
+
+# Test output
+test-output/
+
+# Eclipse specific
+.classpath
+.project
+
+# NetBeans specific
+nbproject/
+
+# IntelliJ specific
+*.iws
+
+# Gradle specific
+.gradle/
+
+# Maven specific
+.mvn/
+
+# Slay the Spire mod specific
+modinfo.json
+
+# Other
+*.bak
+*.tmp
+*.orig
+*.rej
+*.patch
+
+# OS specific
+Thumbs.db
+
+# Windows specific
+*.lnk
+*.tmp
+*.log
+
+# Mac specific
+*.DS_Store
+
+# Linux specific
+*.swp
+*.swn
+*.swo
+*.slo
+
+# All platforms
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Java build
+*.class
+
+# Slay the Spire mod specific
+modinfo.json
+
+# Other
+*.bak
+*.tmp
+*.orig
+*.rej
+*.patch
+
+# OS specific
+Thumbs.db
+
+# Windows specific
+*.lnk
+*.tmp
+*.log
+
+# Mac specific
+*.DS_Store
+
+# Linux specific
+*.swp
+*.swn
+*.swo
+*.slo
+
+# All platforms
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
