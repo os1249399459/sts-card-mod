@@ -81,35 +81,5 @@ __pycache__/
 # Java build
 *.class
 
-# Slay the Spire mod specific
-modinfo.json
-
-# Other
-*.bak
-*.tmp
-*.orig
-*.rej
-*.patch
-
-# OS specific
-Thumbs.db
-
-# Windows specific
-*.lnk
-*.tmp
-*.log
-
-# Mac specific
-*.DS_Store
-
-# Linux specific
-*.swp
-*.swn
-*.swo
-*.slo
-
-# All platforms
-*.pyc
-*.pyo
-*.pyd
-__pycache__/
+# Ignore bin directory
+bin/
